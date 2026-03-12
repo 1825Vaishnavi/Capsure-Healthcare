@@ -1,14 +1,14 @@
-## CAPSURE Healthcare Analytics Pipeline
+# CAPSURE Healthcare Analytics Pipeline
 A reproducible, auditable clinical data pipeline with ML-powered hospital surge prediction — built in Python as part of a healthcare analytics research collaboration at Northeastern University.
 
-# Project Overview
+## Project Overview
 This pipeline processes structured clinical datasets to support healthcare analytics workflows. It automates data validation, feature engineering, surge prediction modeling, and produces an interactive Streamlit dashboard for live predictions.
 Inspired by the HSyE Hospital Capacity Surge Model at Northeastern University.
 
-What This Project Covers
+## What This Project Covers
 FeatureDescriptionData PreprocessingMissing value handling, outlier clipping, type conversionValidation PipelineRange checks, duplicate detection, null reportingFeature Engineering5 clinical features auto-generated from raw dataML ModelRandom Forest surge predictor — AUC: 0.91Streamlit DashboardLive surge predictor + interactive chartsAudit LogJSON run log with timestamp, record count, feature listTest Suite10 automated pytest test cases
 
-🗂️ Project Structure
+## Project Structure
 capsure_pipeline/
 │
 ├── CAPSURE_Healthcare_Pipeline.ipynb  # Main pipeline notebook
@@ -25,7 +25,7 @@ capsure_pipeline/
 │
 └── README.md
 
-🔧 Tech Stack
+## Tech Stack
 
 Python — pandas, numpy, scikit-learn, matplotlib
 Machine Learning — Random Forest, Logistic Regression, StandardScaler
@@ -34,7 +34,7 @@ Testing — pytest
 Data — COVID-19 US hospital dataset (816 records)
 
 
-🚀 How to Run
+## How to Run
 1. Install dependencies
 bashpip install pandas numpy scikit-learn matplotlib streamlit pytest
 2. Run the full pipeline
@@ -44,7 +44,7 @@ bashpython -m streamlit run app.py
 4. Run test suite
 bashpython -m pytest test_pipeline.py -v
 
-📊 Pipeline Stages
+## Pipeline Stages
 Stage 1 — Load
 Downloads structured clinical COVID-19 dataset (816 US records, 2020–2022)
 Stage 2 — Validate
