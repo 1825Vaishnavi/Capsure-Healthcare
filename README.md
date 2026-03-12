@@ -1,7 +1,7 @@
-###🏥 CAPSURE Healthcare Analytics Pipeline
+## CAPSURE Healthcare Analytics Pipeline
 A reproducible, auditable clinical data pipeline with ML-powered hospital surge prediction — built in Python as part of a healthcare analytics research collaboration at Northeastern University.
 
-📌 Project Overview
+# Project Overview
 This pipeline processes structured clinical datasets to support healthcare analytics workflows. It automates data validation, feature engineering, surge prediction modeling, and produces an interactive Streamlit dashboard for live predictions.
 Inspired by the HSyE Hospital Capacity Surge Model at Northeastern University.
 
